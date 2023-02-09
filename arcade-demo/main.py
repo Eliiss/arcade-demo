@@ -23,10 +23,10 @@ https://api.arcade.academy/en/latest/examples/view_instructions_and_game_over.ht
 
 
 """
-
-import arcade
 import random
+import arcade
 import os
+
 
 
 file_path = os.path.dirname(os.path.abspath(__file__))
@@ -39,7 +39,7 @@ SPRITE_SCALING = 0.5
 
 class MenuView(arcade.View):
     def on_show(self):
-        arcade.set_background_color(arcade.color.WHITE)
+        arcade.set_background_color(arcade.color.YELLOW)
 
     def on_draw(self):
         arcade.start_render()
